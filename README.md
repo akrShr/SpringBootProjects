@@ -20,5 +20,6 @@ Once user selects an employee to be deleted, system will prompt us whether we wa
 
 
 Code Flow
+
 From web browser request will come to Employee Controller to Employee Service to Employee Respository and finally hit the database.
 We get the data back to send it over to Thymeleaf templates. The templates give us a view to be shown in web browser.
