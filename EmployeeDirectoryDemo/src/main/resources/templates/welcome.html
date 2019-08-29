@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<!-- referencing CSS file. Here @ symbol reference the context path of application-->
+<link rel="stylesheet" th:href="@{/css/welcome.css}" />
+</head>
+<body class="welcome">
+ <p th:text = "'Welcome!'" />
+ <p th:text =" 'Time is ' +${currentDate}" />
+</body>
+</html>
