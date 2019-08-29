@@ -13,7 +13,9 @@ User should be able to
 Application should list employees on HTML page in tabular format. The data in the table will be sorted on last name in ascending order alphabetically.
 
 On top left corner there will be a button to add an employee in the database. Once you click it a form appears to capture employee details. On saving the details, the user is redirected to the see the list of employees again.
+
 With each row in employee record table we should have button to update that employee record or delete it. On update a prepopulated form with corresponding employee row's data appear. User can modify it and save to reflect changes on the list of employees presented in tabular format.
+
 Once user selects an employee to be deleted, system will prompt us whether we want to delete the record. After user confirms deletion the list of employees on HTMl page is refreshed. 
 
 
