@@ -23,3 +23,13 @@ Code Flow
 
 From web browser request will come to Employee Controller to Employee Service to Employee Respository and finally hit the database.
 We get the data back to send it over to Thymeleaf templates. The templates give us a view to be shown in web browser.
+
+Spring Boot application also support REST API.
+
+HTTP Method
+  GET      -> /empApi/listEmployees :  Read a list of employees
+  GET      -> /empApi/employee/{employeeId} : Reading a single employee data
+  POST     -> /empApi/employee : Add a new employee
+  PUT     -> /empApi/employeeUpdate : Update an existing an employee
+  DELETE  -> /empApi/employee/{employeeId} : Deleting a single employee data
+
