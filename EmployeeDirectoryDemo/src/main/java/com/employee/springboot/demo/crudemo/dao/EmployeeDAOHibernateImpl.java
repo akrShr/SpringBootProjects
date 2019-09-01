@@ -1,7 +1,6 @@
 package com.employee.springboot.demo.crudemo.dao;
 
 import java.util.List;
-import java.util.Optional;
 
 import javax.persistence.EntityManager;
 import org.hibernate.Session;
@@ -40,7 +39,7 @@ public class EmployeeDAOHibernateImpl implements Dao<Employee> {
 	}
 
 	@Override
-	public Optional<Employee> findById(int theId){
+	public Employee findById(int theId){
 		//get the current hibernate session
 		Session session=entityManager.unwrap(Session.class);
 				
@@ -48,7 +47,7 @@ public class EmployeeDAOHibernateImpl implements Dao<Employee> {
 		Employee employee= session.get(Employee.class,theId);
 		
 	    //return the results
-		return Optional.ofNullable(employee);
+		return employee;
 		
 	}
 

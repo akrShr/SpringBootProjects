@@ -29,7 +29,7 @@ public class EmployeeServiceImpl implements EmployeeService<Employee> {
 	@Override
 	@Transactional
 	public Optional<Employee> findById(int theId) {
-		return employeeDao.findById(theId);
+		return Optional.ofNullable(employeeDao.findById(theId));
 	}
 
 	@Override
