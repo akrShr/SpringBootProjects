@@ -33,9 +33,14 @@ To interact with the database we use design pattern of Data Access Object(DAO). 
 Spring Boot application also support REST API.
 
 HTTP Method
+
   GET      -> /empApi/listEmployees :  Read a list of employees
+  
   GET      -> /empApi/employee/{employeeId} : Reading a single employee data
+  
   POST     -> /empApi/employee : Add a new employee
+  
   PUT     -> /empApi/employeeUpdate : Update an existing an employee
+  
   DELETE  -> /empApi/employee/{employeeId} : Deleting a single employee data
 
