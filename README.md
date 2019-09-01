@@ -43,4 +43,8 @@ HTTP Method
   PUT     -> /empApi/employeeUpdate : Update an existing an employee
   
   DELETE  -> /empApi/employee/{employeeId} : Deleting a single employee data
+  
+  To start the application
+  
+  Run file CrudemoApplication.java as java application
 
