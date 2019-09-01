@@ -1,6 +1,9 @@
 # SpringBootProjects
 This repository will hold projects developed using Spring Boot, Thymeleaf, Hibernate
 
+Software Version:- Spring 5
+		   Hibernate 5
+
 Project:= Employee Directory
 
 User should be able to
